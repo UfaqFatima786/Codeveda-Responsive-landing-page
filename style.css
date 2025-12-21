@@ -5,27 +5,32 @@
 body{
     background-color: rgb(189, 51, 51);
 }
+.header-row{
+        background-color: #fa5656;
+
+}
+.second-middle-row{
+        background-color: #fa5656;
+}
+.third-middle-row{
+        background-color: #fa5656;
+}
 .card{
-    background-color: rgb(250, 160, 160);
-
-    cursor: pointer;
-    transition: 0.8sec;
- 
-
+    background-color: rgb(253, 184, 184);
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 .card:hover{
-    background-color: rgb(247, 80, 80);
-
+    background-color: rgb(248, 136, 136);
+    border-radius: 10px;
+    box-sizing: border-box;
     cursor: pointer;
-    transition: 0.8sec;
-     animation-name: pulse;
-    animation-duration: 0.8sec;
+   animation-name: pulse;
+    animation-duration: 2s;
+}
 
-}
-.col:hover{
-    cursor: pointer;
-    transition: 0.8sec;
-}
+
+
 .footer {
     background-color: rgb(104, 2, 2);
     height: 100px;
