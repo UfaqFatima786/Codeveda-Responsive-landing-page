@@ -3,7 +3,18 @@
     padding: 0;
 }
 body{
-    background-color: rgb(189, 51, 51);
+    /* background-color: rgb(189, 51, 51); */
+    background-image: linear-gradient(90deg,rgba(247, 5, 5, 1) 0%, rgba(172, 96, 65, 1) 33%, rgba(87, 199, 133, 1) 60%, rgba(237, 221, 83, 1) 100%);
+}
+.logo-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.makeup-img{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(131, 1, 1);
 }
 .header-row{
         background-color: #fa5656;
