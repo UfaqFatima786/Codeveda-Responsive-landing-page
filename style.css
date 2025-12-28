@@ -305,20 +305,23 @@ body {
         width: 150px;
     }
 }
+
 @media only screen and (max-width: 769px) {
-    
-    .navbar-collapse{
+
+    .navbar-collapse {
         width: 200px;
     }
+
     .btn {
         margin-right: 200px;
     }
 }
 
 @media only screen and (max-width: 736px) {
-    .navbar-collapse{
+    .navbar-collapse {
         width: 150px;
     }
+
     .btn {
         margin-right: 180px;
     }
@@ -333,9 +336,10 @@ body {
 }
 
 @media only screen and (max-width: 616px) {
-    .navbar-collapse{
+    .navbar-collapse {
         width: 150px;
     }
+
     .btn {
         margin-left: 110px;
     }
@@ -346,20 +350,75 @@ body {
         margin-left: 105px;
     }
 }
+
+@media only screen and (max-width: 565px) {
+    .btn {
+        margin-left: 90px;
+
+    }
+}
+
+
+
 @media only screen and (max-width: 545px) {
-    .navbar-collapse{
+    .navbar-collapse {
         width: 120px;
     }
+
 }
-@media only screen and (max-width: 530px) {
+
+@media only screen and (max-width: 540px) {
     .btn {
-        margin-right: 90px;
+        margin-left: 75px;
     }
 }
+
+@media only screen and (max-width: 530px) {
+    .btn {
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .btn {
+        margin-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .btn {
+        margin-right: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .btn {
+        margin-right: 140px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .btn {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .btn {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    .footer {
+        height: 280px;
+    }
+}
+
+
 @media only screen and (max-width: 446px) {
 
-.footer {
-    height: 200px;
+    .footer {
+        height: 200px;
     }
 }
 
@@ -369,35 +428,64 @@ body {
         height: 220px;
     }
 }
+
 @media only screen and (max-width: 350px) {
     .footer {
         height: 240px;
     }
 }
+
 @media only screen and (max-width: 328px) {
     .footer {
         height: 280px;
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .btn {
+        margin-left: -20px;
+        width: 135px;
+    }
+}
+
 @media only screen and (max-width: 275px) {
-    .e-para{
+    .e-para {
         display: none;
     }
 }
+
 @media only screen and (max-width: 256px) {
     .footer {
         height: 350px;
     }
 }
+
 @media only screen and (max-width: 236px) {
     .footer {
         height: 400px;
     }
 }
+
 @media only screen and (max-width: 225px) {
     .left-row {
-text-align: left;    }
+        text-align: left;
+    }
+
+    .heading-3 {
+        font-size: 18px;
+    }
+
+    .para-1 {
+        font-size: 13px;
+    }
+
+    .btn-1 {
+        margin-right: 50px;
+    }
+
+    .body {
+        overflow-x: hidden !important;
+    }
 }
 
 
@@ -406,11 +494,14 @@ text-align: left;    }
     .footer {
         height: 450px;
     }
-}@media only screen and (max-width: 214px) {
-    body{
+}
+
+@media only screen and (max-width: 214px) {
+    body {
         overflow-x: hidden;
     }
 }
+
 @media only screen and (max-width: 208px) {
     .footer {
         height: 500px;
@@ -419,38 +510,38 @@ text-align: left;    }
 
 @media only screen and (max-width: 208px) {
 
-.btnservice {
-    background-color: #ec0202;
-    border-radius: 10px;
-    border: 2px solid;
-    color: rgb(255, 254, 254);
-    font-size: 13px;
-}
+    .btnservice {
+        background-color: #ec0202;
+        border-radius: 10px;
+        border: 2px solid;
+        color: rgb(255, 254, 254);
+        font-size: 13px;
+    }
 
-.btnservice:hover {
-    border-radius: 10px;
-    border: 2px solid red;
-    color: rgb(16, 16, 16);
-    background-color: #ffb8b8;
-    transition: 0.5s;
-    cursor: pointer;
-}
+    .btnservice:hover {
+        border-radius: 10px;
+        border: 2px solid red;
+        color: rgb(16, 16, 16);
+        background-color: #ffb8b8;
+        transition: 0.5s;
+        cursor: pointer;
+    }
 
-.Selling-button {
-    background-color: #800303;
-    font-size: 15px;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
+    .Selling-button {
+        background-color: #800303;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
 
-.Seling-button:hover {
-    font-size: 15px;
-    border-radius: 10px;
-    border: 2px solid rgb(252, 166, 166);
-    color: #000000;
-    background-color: #fa6868;
-    transition: 0.3s;
-    cursor: pointer;
-}
+    .Seling-button:hover {
+        font-size: 15px;
+        border-radius: 10px;
+        border: 2px solid rgb(252, 166, 166);
+        color: #000000;
+        background-color: #fa6868;
+        transition: 0.3s;
+        cursor: pointer;
+    }
 }
