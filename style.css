@@ -177,6 +177,63 @@ body {
     box-sizing: border-box;
 
 }
+.btn {
+    background-color: #ec0202;
+    border-radius: 10px;
+    border: 2px solid;
+    color: rgb(255, 254, 254);
+}
+
+.btn:hover {
+    border-radius: 10px;
+    border: 2px solid red;
+    color: rgb(16, 16, 16);
+    background-color: #ffb8b8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.makeup-img {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(131, 1, 1);
+
+}
+
+.makeup-img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
+}
+
+.header-row {
+    background-color: #fa5656;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+
+}
+
+.C-button {
+    background-color: rgb(224, 10, 10);
+    color: rgb(255, 255, 255);
+    border: 2px solid #faf4f4;
+    border-radius: 5.95px;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+}
+
+.C-button:hover {
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: #ffa8a8;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 25px;
+}
 
 .form {
     max-width: 500px;
@@ -407,6 +464,35 @@ body {
         margin-left: 40px;
     }
 }
+@media only screen and (max-width: 442px) {
+    .btn {
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .btn {
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .btn {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .btn {
+        margin-left: 17px;
+        overflow-x: hidden;
+    }
+    
+}
+@media only screen and (max-width: 418px) {
+    .btn {
+                margin-left: 13px;
+
+    }
+    
+}
 
 @media only screen and (max-width: 328px) {
     .footer {
@@ -458,6 +544,11 @@ body {
     .footer {
         height: 350px;
     }
+}
+@media only screen and (max-width: 240px) {
+    .C-button{
+width: 150px;  
+height: 150px;  }
 }
 
 @media only screen and (max-width: 236px) {
@@ -523,7 +614,6 @@ body {
         border: 2px solid red;
         color: rgb(16, 16, 16);
         background-color: #ffb8b8;
-        transition: 0.5s;
         cursor: pointer;
     }
 
