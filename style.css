@@ -397,3 +397,71 @@ body {
         height: 280px;
     }
 }
+
+@media only screen and (max-width: 275px) {
+    .e-para{
+        display: none;
+    }
+}
+@media only screen and (max-width: 256px) {
+    .footer {
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 236px) {
+    .footer {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 220px) {
+    .footer {
+        height: 450px;
+    }
+}@media only screen and (max-width: 214px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 208px) {
+    .footer {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 208px) {
+
+.btnservice {
+    background-color: #ec0202;
+    border-radius: 10px;
+    border: 2px solid;
+    color: rgb(255, 254, 254);
+    font-size: 13px;
+}
+
+.btnservice:hover {
+    border-radius: 10px;
+    border: 2px solid red;
+    color: rgb(16, 16, 16);
+    background-color: #ffb8b8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Selling-button {
+    background-color: #800303;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Seling-button:hover {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 166, 166);
+    color: #000000;
+    background-color: #fa6868;
+    transition: 0.3s;
+    cursor: pointer;
+}
+}
