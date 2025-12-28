@@ -127,7 +127,7 @@ body {
 }
 
 .Selling-button {
-    font-size: 40px;
+    font-size: 35px;
     font-style: bold;
     background-color: #853636;
     color: #f5b1b1;
@@ -137,7 +137,7 @@ body {
 }
 
 .Selling-button:hover {
-    font-size: 45px;
+    font-size: 40px;
     font-style: bold;
     background-color: #530202;
     color: #fcfafa;
@@ -169,24 +169,6 @@ body {
     animation-duration: 2s;
 }
 
-
-
-.contact-button {
-    background-color: #014f9c;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-}
-
-.contact-button:hover {
-    border-radius: 10px;
-    border: 2px solid rgb(252, 166, 166);
-    color: #000000;
-    background-color: #b9aef8;
-    transition: 0.5s;
-    cursor: pointer;
-}
 
 .contact-row {
     background-color: #fa5656;
@@ -413,6 +395,13 @@ body {
         height: 400px;
     }
 }
+@media only screen and (max-width: 225px) {
+    .left-row {
+text-align: left;    }
+}
+
+
+
 @media only screen and (max-width: 220px) {
     .footer {
         height: 450px;
