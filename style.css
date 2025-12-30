@@ -29,10 +29,10 @@ body {
 .navlist {
     align-items: center;
 }
-.navlist .btn {
-    white-space: nowrap;   
-}
 
+.navlist .btn {
+    white-space: nowrap;
+}
 
 .btn {
     background-color: #ec0202;
