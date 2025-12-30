@@ -23,8 +23,16 @@ body {
 .navlist .nav-link {
     color: #ffffff;
     font-size: 20px;
-    margin-right: 20px;
+    align-items: center;
 }
+
+.navlist {
+    align-items: center;
+}
+.navlist .btn {
+    white-space: nowrap;   
+}
+
 
 .btn {
     background-color: #ec0202;
@@ -266,14 +274,16 @@ body {
 
 .form input[type="text"]:hover,
 .form textarea:hover {
-    border-color: #007BFF;
+    border-color: #ff0000;
+    background-color: #fd8d8d;
 }
 
 .form input[type="text"]:focus,
 .form textarea:focus {
-    border-color: #28a745;
+    border-color: #000000;
+    background-color: #f5c5c5;
     outline: none;
-    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+    box-shadow: 0 0 5px rgba(0, 255, 60, 0.5);
 }
 
 .btnservice {
@@ -354,151 +364,11 @@ body {
         text-align: center;
     }
 
-    .btn {
-        margin-left: 200px;
-    }
-
-    .btn {
-        margin-right: 225px;
-        width: 150px;
-    }
-}
-
-@media only screen and (max-width: 769px) {
-
     .navbar-collapse {
-        width: 200px;
-    }
-
-    .btn {
-margin-left: 200px;    }
-}
-
-@media only screen and (max-width: 736px) {
-    .navbar-collapse {
-        width: 150px;
-    }
-
-    .btn {
-        margin-right: 180px;
+        text-align: center;
     }
 }
 
-
-
-@media only screen and (max-width: 695px) {
-    .btn {
-        margin-left: 150px;
-    }
-}
-
-@media only screen and (max-width: 616px) {
-    .navbar-collapse {
-        width: 150px;
-    }
-
-    .btn {
-        margin-left: 110px;
-    }
-}
-
-@media only screen and (max-width: 590px) {
-    .btn {
-        margin-left: 105px;
-    }
-}
-
-@media only screen and (max-width: 565px) {
-    .btn {
-        margin-left: 90px;
-
-    }
-}
-
-
-
-@media only screen and (max-width: 545px) {
-    .navbar-collapse {
-        width: 120px;
-    }
-
-}
-
-@media only screen and (max-width: 540px) {
-    .btn {
-        margin-left: 75px;
-    }
-}
-
-@media only screen and (max-width: 530px) {
-    .btn {
-        margin-left: 65px;
-    }
-}
-
-@media only screen and (max-width: 525px) {
-    .btn {
-        margin-right: 75px;
-    }
-}
-
-@media only screen and (max-width: 490px) {
-    .btn {
-        margin-right: 120px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .btn {
-        margin-right: 140px;
-    }
-}
-
-@media only screen and (max-width: 460px) {
-    .btn {
-        margin-left: 50px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .btn {
-        margin-left: 40px;
-    }
-}
-
-@media only screen and (max-width: 442px) {
-    .btn {
-        margin-left: 30px;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .btn {
-        margin-left: 25px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .btn {
-        margin-left: 20px;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .btn {
-        margin-left: 17px;
-        overflow-x: hidden;
-    }
-
-}
-
-@media only screen and (max-width: 418px) {
-    .btn {
-        margin-left: 13px;
-
-    }
-
-}
 
 @media only screen and (max-width: 328px) {
     .footer {
