@@ -299,47 +299,11 @@ body {
     transition: 0.5s;
     cursor: pointer;
 }
-
-/* 
-.footer {
-    background-color: rgb(104, 2, 2);
-    height: 180px;
-    margin-bottom: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    border: 2px solid black;
-
+.section-form:hover{
+     cursor: pointer;
+    animation-name: zoom-In;
 }
 
-.github-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    margin-left: 5px;
-}
-
-.footer-para {
-    color: #ffffff;
-    font-size: 15px;
-}
-
-.footer-para:hover {
-    color: #faa966;
-    cursor: pointer;
-    transition: 0.5s;
-
-}
-
-.e-para {
-    color: #fdfafa;
-    text-align: center;
-}
-
-.tag {
-    color: #fcfafa;
-    text-decoration: none;
-} */
 
 
 
@@ -429,6 +393,21 @@ a {
     .navbar-collapse {
         text-align: center;
     }
+
+    .row-footer {
+        flex-direction: column;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .footer-heading-03 {
+        font-size: 22px;
+    }
+
+
 }
 
 
