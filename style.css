@@ -300,6 +300,7 @@ body {
     cursor: pointer;
 }
 
+/* 
 .footer {
     background-color: rgb(104, 2, 2);
     height: 180px;
@@ -338,7 +339,70 @@ body {
 .tag {
     color: #fcfafa;
     text-decoration: none;
+} */
+
+
+
+.main-footer {
+    margin-top: 50px;
+    background-color: rgb(104, 2, 2);
+    border: 2px solid rgb(255, 157, 157);
+    border-radius: 20px;
 }
+
+.footer-heading-03 {
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.foot-img {
+
+    text-align: center;
+    gap: 2px;
+}
+
+.foot-logo {
+    width: 200px;
+}
+
+.last-div span {
+    color: #ffffff;
+}
+
+.footer-para {
+    color: #ffffff;
+
+}
+
+.footer-para a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.github-logo {
+    width: 35px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+
+.last-div span {
+    color: #000000;
+}
+
+.last-div span:hover {
+    color: #420202;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
 
 @media only screen and (max-width: 991px) {
     .left-row {
